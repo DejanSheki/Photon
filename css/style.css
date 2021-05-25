@@ -46,3 +46,48 @@ header h2 {
     color: #fff;
     cursor: pointer;
 }
+
+.gallery-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(111, 112, 114);
+    padding: 0.2rem 0rem;
+}
+
+.gallery-info a {
+    color: rgb(111, 112, 114);
+    text-decoration: none;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    padding: 2rem 0rem;
+    width: 80%;
+    margin: auto;
+    row-gap: 5rem;
+    column-gap: 3rem;
+}
+
+.gallery-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav-btn {
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more {
+    padding: 1rem 3rem;
+    background: rgb(46, 11, 112);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
