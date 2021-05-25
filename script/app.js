@@ -26,3 +26,6 @@ async function curatedPhotos() {
 }
 
 curatedPhotos();
+
+
+const test = test;
